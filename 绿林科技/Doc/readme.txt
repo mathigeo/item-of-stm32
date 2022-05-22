@@ -1,0 +1,34 @@
+#以下为硬件配置
+
+编码器1——PB8/PB9---TIM4
+编码器2——PB6/PB7---TIM4
+
+电机1——PB12/PB13
+电机2——PB14/PB15
+电机3——PA4/PA5(普通)
+PWM1——PA8
+PWM2——PA11
+PWM3——PA9
+
+MPU6050中断引脚——PB5
+MPU6050所用IIC——PB3/PB4
+
+OLED--SCL: PC5  SDA:PC4
+
+舵机1：PA6
+舵机2：PA7
+舵机3：PB0
+舵机4：PB1
+舵机5：PA10
+舵机6：PA0(TIM4)
+舵机7：PA1(TIM4)
+
+超声波1：PC2  PC3(普通)
+超声波1：PC6  PC7(普通)
+
+步进电机1：PC0（可用普通口）
+步进电机2：PC1
+
+openmv 串口1：TX PB10  RX PB11（USART3）
+zigbee 串口2：TX PA2  RX PA3（USART2）
+蓝牙 串口3：TX PC10 RX PC11(USART4)
